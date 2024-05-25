@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+    <title> House Coffee </title>
+    <meta name="author" content="Claudia Pal">
+    <meta name="description" content="Cafenea cu stil.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"> 
+<link href="style.css" rel="stylesheet">
+<script src="js.js"></script>
+
+</head>
+
+    
+		
+    <div>  
+    <ul class="meniu">
+        <li><a href="index.html"> Home</a></li>
+        <li> <a href="meniu.html" > Meniu</a></li>
+        <li> <a href="contact.html"> Contact  </a></li>
+        <li> <a href="history.html"> Povestea noastra</a></li>
+        <li> <a href="produse.html"> Photo customers</a></li>
+    </ul>
+    <br>
+    </div>
+    <h1> HOUSE Coffee</h1>
+    <iframe width="873" height="491" src="https://www.youtube.com/embed/MYPVQccHhAQ" title="4K Cozy Coffee Shop with Smooth Piano Jazz Music for Relaxing, Studying and Working" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div>
+        <body background ="poza.cafea.jpg">
+        </div>
+    <script type="text/javascript">
+    <!--
+    function ceas() {
+      var Digital=new Date()
+      var hours=Digital.getHours()     // Preia ora
+      var minutes=Digital.getMinutes()     // Preia minutele
+      var seconds=Digital.getSeconds()     // Preia secundele
+      var dn="AM"
+      // Stabileste afisarea AM (Ante Meridian) sau PM (Post Meridian)
+      if (hours>12) {
+        dn="PM"
+        hours=hours-12
+      }
+      if (hours==0)
+        hours=12
+      if (minutes<=9)
+        minutes="0"+minutes
+      if (seconds<=9)
+        seconds="0"+seconds
+    
+    // Creaza si afiseaza elementele HTML in eticheta <div>
+      myclock="<font size='4' face='Times New Roman' ><b><font size='1'>Ora curena</font><br>"+hours+":"+minutes+":"
+    +seconds+" "+dn+"</b></font>"
+    
+      document.getElementById("ceas2").innerHTML=myclock
+      setTimeout("ceas()",1000)     // Executa functia ceas() la fiecare secunda
+    }
+    window.onload=ceas;     // Executa functia ceas() la incarcarea scriptului
+    //-->
+    </script>
+    <script>
+        // Creează un mesaj de bun venit
+        var mesaj = "Bun venit pe pagina noastră!";
+    
+        // Afișează mesajul într-un popup
+        alert(mesaj);
+    </script>
+</body>
+<header>
+    <h1>Coffee in the morning together.</h1>
+    <p>Bucurați-vă de cea mai buna cafea si cea mai buna admosfera din oras.</p>
+    <br> <h2> Coffee history </h2>
+    <p class="istoria"> Cafeluța, această băutură aromată și revigorantă, își are originile în regiunea Kaffa din Etiopia, în jurul secolului al IX-lea, conform unei legende care spune despre un păstor care a descoperit proprietățile stimulante ale fructelor de cafea. 
+        Răspândindu-se în Peninsula Arabă în secolul al XV-lea, cafeaua a devenit rapid asociată cu conversațiile intelectuale din cafenelele arabe. De aici, a călătorit spre Europa în secolul al XVII-lea, unde a prins rădăcini în Veneția și a captivat apoi întreaga Europă. 
+        Cu dezvoltarea plantățiilor de cafea în coloniile europene din secolul al XVIII-lea și expansiunea în America Latină, Asia de Sud-Est și Africa, cafeaua a devenit o marfă globală. În era industrială, inovațiile tehnologice au accelerat producția, iar cafenelele au evoluat în centre sociale și culturale.
+         Astăzi, mișcarea de cafea de specialitate pune un accent crescut pe calitatea boabelor și pe procesele de preparare, aducând o apreciere mai profundă pentru diversitatea și istoria bogată a acestei băuturi universale.
+         Cafeaua a călătorit prin istorie, transformându-se într-o forță economică și socială, având un impact profund asupra culturilor din întreaga lume. În secolul al XIX-lea, odată cu progresele tehnologice și extinderea legăturilor comerciale, producția de cafea a crescut semnificativ. Brazilia a devenit un lider mondial în producția de cafea, iar alți producători importanți au emergat în America Latină, Africa și Asia.
+
+Cafenelele, în special cele din Europa și Statele Unite, au devenit centre de întâlnire și discuție, contribuind la dezvoltarea unor mișcări culturale și politice.
+ Revoluția industrială a adus cu sine inovații în prăjirea și ambalarea cafelei, făcând-o mai accesibilă și mai ușor de preparat în casele oamenilor.
+
+În secolul XX, cafeaua a devenit un element central al vieții urbane, iar brandurile globale au apărut, contribuind la standardizarea consumului de cafea. 
+În paralel, s-a intensificat și mișcarea de cafea de specialitate, care promovează conceptul de "de la fermă la ceașcă" și evidențiază unicitatea aromelor din diverse regiuni.
+
+Astăzi, industria cafelei continuă să evolueze, fiind influențată de inovații în tehnologie, sustenabilitate și preocupări sociale.
+ De la metode tradiționale de preparare, precum cezve-ul turcesc sau cafetiera franceză, până la tehnologii moderne, cum ar fi espresso-ul sau metodele de preparare la rece, cafeaua rămâne o sursă constantă de inspirație și explorare. 
+ Este o băutură care aduce împreună oameni din diferite culturi și un mediu în care gustul și aromă devin subiecte de pasiune și dezbateri apreciate în întreaga lume.
+
+ <div class="rightheader">		
+    <p id="cafea"></p>
+       <script>
+           document.getElementById("cafea").innerHTML = 'La House Coffee, ne pasă de fiecare cană. Folosim cele mai bune boabe de cafea și oferim un mediu confortabil pentru clienții noștri.';
+       </script>
+          <p style="text-align:justify" onmouseover="style.color='black' " onmouseout="style.color='white' "> Ne dorim ca Coffee House să fie pentru voi, oaspeții noștri, locul în care vă veți găsi echilibrul și entuziasmul de fiecare dată când ne veți trece pragul, pentru a savura o cafea gustoasă.</p>
+          <p style="color:white; text-align:justify">COFFEE HOUSE nu este doar o cafenea în care să găsești produse excelente, care să-ți încânte papilele gustative, ci vine la pachet cu o atmosferă inedită și armonioasă. Este cafeneaua în care relaxarea este la ea acasă. Noi o numim o oază în mijlocul junglei urbane, unde să te încarci cu energie.</p>
+           <p style="color:white; text-align:justify">Te îmbrățișăm cu gustoasa cafea de specialitate sau aromele surprinzătoare ale prajiturilor.</p>
+       </div>
+
+
+
+
+
+    </header>
+
+
+    <center style="color:white">
+        <div id="ceas2"></div>
+                </center>		
+        
+<footer>
+    <p>&copyCLAUDIAPAL; 2023 Cafenea cu stil. Toate drepturile rezervate.</p>
+</footer>
+
+
+</html>
