@@ -17,7 +17,46 @@
         <li> <a href="history.html"> Povestea noastra</a></li>
         <li> <a href="produse.html"> Photo customers</a></li>
         <li> <a href="comenzi.php"> Plasare Comanda</a></li>
+        <a href="conditional_loops.php">Conditional and Loops </a>
         </head>
+        <body background ="Chicago Coffee Shop Guide-katelyn now.jpg"></body>
+        <script type="text/javascript">
+    <!--
+    function ceas() {
+      var Digital=new Date()
+      var hours=Digital.getHours()     // Preia ora
+      var minutes=Digital.getMinutes()     // Preia minutele
+      var seconds=Digital.getSeconds()     // Preia secundele
+      var dn="AM"
+      // Stabileste afisarea AM (Ante Meridian) sau PM (Post Meridian)
+      if (hours>12) {
+        dn="PM"
+        hours=hours-12
+      }
+      if (hours==0)
+        hours=12
+      if (minutes<=9)
+        minutes="0"+minutes
+      if (seconds<=9)
+        seconds="0"+seconds
+    
+    // Creaza si afiseaza elementele HTML in eticheta <div>
+      myclock="<font size='4' face='Times New Roman' ><b><font size='1'>Ora curena</font><br>"+hours+":"+minutes+":"
+    +seconds+" "+dn+"</b></font>"
+    
+      document.getElementById("ceas2").innerHTML=myclock
+      setTimeout("ceas()",1000)     // Executa functia ceas() la fiecare secunda
+    }
+    window.onload=ceas;     // Executa functia ceas() la incarcarea scriptului
+    //-->
+    </script>
+    <script>
+        // Creează un mesaj de bun venit
+        var mesaj = "Bun venit pe pagina noastră!";
+    
+        // Afișează mesajul într-un popup
+        alert(mesaj);
+    </script>
 <body>
     <div class="container">
         <h1>Comandă la Cafenea</h1>
